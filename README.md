@@ -49,8 +49,8 @@ install catkin packages.
 - Workspace: Set of directories where we store related pieces of ROS code.
 - To create a workspace we should apply the following commands :
 ```
-$ mkdir -p ~/catkin_ws/src
-$ cd ~/catkin_ws/
+$ mkdir -p ~/my_ws/src
+$ cd ~/my_ws/
 $ catkin_make
 $ source devel/setup.bash
 $ echo $ROS_PACKAGE_PATH
@@ -68,11 +68,11 @@ $ echo $ROS_PACKAGE_PATH
 - All ROS packages need to reside inside a catkin workspace.(catkin_ws)
 - To create a package we should apply the following commands :
 ```
-$ cd ~/catkin_ws/src
+$ cd ~/my_ws/src
 $ catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
-$ cd ~/catkin_ws
+$ cd ~/my_ws
 $ catkin_make
-$ . ~/catkin_ws/devel/setup.bash
+$ . ~/my_ws/devel/setup.bash
 $ source /opt/ros/noetic/setup.bash
 $ catkin_make
 $ ls
