@@ -90,7 +90,7 @@ $ ls
 </br>[ROS Master]: It acts as a server for node-to-node connections and message communication. 
 </br>[Roscore]: It acts as a server for node-to-node connections and message communication. 
 </br>
-</br>- roscore = ros+core : master (provides name service for ROS) + rosout (stdout/stderr) + parameter server (parameter server will be introduced later)
+</br>- roscore = ros+core : master (provides name service for ROS) + rosout + parameter server
 </br>- rosnode = ros+node : ROS tool to get information about a node.
 </br>- rosrun = ros+run : runs a node from a given package.
 </br>
