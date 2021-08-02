@@ -46,6 +46,7 @@ $ rosdep update
 ### How to create and work on ROS workspace ?
 - A catkin workspace is a folder where you modify, build, and 
 install catkin packages.
+- Our workspace name : my_ws
 - Workspace: Set of directories where we store related pieces of ROS code.
 - To create a workspace we should apply the following commands :
 ```
