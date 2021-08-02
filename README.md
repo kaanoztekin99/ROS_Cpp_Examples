@@ -5,7 +5,7 @@ Creating ROS Publisher-Subscriber, Service and Action Server-Client Examples
 </br>
 ### IMPORTANT NOTE :
 - In this project, I did all the steps that need to be done.
-- Just install ROS-noetic version and project
+- Just install ROS-noetic version, my_workspace and our own package
 - Apply all the remain parts.
 - Don't forget to use the catkin_make command in the catkin workspace after making any changes to the files.
 
@@ -141,7 +141,7 @@ $ rosrun beginner_tutorials talker (and listener in another terminal)
 >![package](https://user-images.githubusercontent.com/56647896/127859321-bbe85199-7df2-43d8-a440-16ce86efe784.png)
 </br>
 
->You can have a look at the screenschot of my listener talker nodes. Our talker sends the message and listener takes the message from him.
+>You can have a look at the screenschot of my listener talker nodes. Our talker sends the message and listener takes the message.
 >![nodes](https://user-images.githubusercontent.com/56647896/127859525-868b9e2f-23dc-43e0-bb5d-a84994943c14.png)
 
 
