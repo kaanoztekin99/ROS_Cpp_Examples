@@ -66,7 +66,7 @@ $ echo $ROS_PACKAGE_PATH
   - src Folder
   - CMakeLists.txt
   - package.xml
-- All ROS packages need to reside inside a catkin workspace.(catkin_ws)
+- All ROS packages need to reside inside a catkin workspace.(my_ws)
 - To create a package we should apply the following commands :
 ```
 $ cd ~/my_ws/src
